@@ -1829,3 +1829,1452 @@ Processing by ArticlesController#index as HTML
   [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
   Rendered articles/index.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/1/edit" for ::1 at 2016-02-21 15:21:16 -0800
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered articles/edit.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for ::1 at 2016-02-21 16:09:57 -0800
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-21 16:09:58 -0800
+
+
+Started GET "/articles/new" for ::1 at 2016-02-21 16:10:00 -0800
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (2.0ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/_form.html.erb (6.0ms)
+  Rendered articles/_form.html.erb (8.4ms)
+  Rendered articles/_form.html.erb (10.7ms)
+  Rendered articles/_form.html.erb (12.8ms)
+  Rendered articles/_form.html.erb (14.4ms)
+  Rendered articles/_form.html.erb (16.1ms)
+  Rendered articles/_form.html.erb (17.8ms)
+  Rendered articles/_form.html.erb (19.5ms)
+  Rendered articles/_form.html.erb (21.3ms)
+  Rendered articles/_form.html.erb (23.4ms)
+  Rendered articles/_form.html.erb (25.5ms)
+  Rendered articles/_form.html.erb (27.7ms)
+  Rendered articles/_form.html.erb (29.6ms)
+  Rendered articles/_form.html.erb (31.2ms)
+  Rendered articles/_form.html.erb (32.8ms)
+  Rendered articles/_form.html.erb (34.4ms)
+  Rendered articles/_form.html.erb (36.1ms)
+  Rendered articles/_form.html.erb (38.3ms)
+  Rendered articles/_form.html.erb (40.3ms)
+  Rendered articles/_form.html.erb (42.1ms)
+  Rendered articles/_form.html.erb (44.1ms)
+  Rendered articles/_form.html.erb (46.1ms)
+  Rendered articles/_form.html.erb (47.6ms)
+  Rendered articles/_form.html.erb (49.2ms)
+  Rendered articles/_form.html.erb (50.8ms)
+  Rendered articles/_form.html.erb (52.5ms)
+  Rendered articles/_form.html.erb (54.3ms)
+  Rendered articles/_form.html.erb (56.0ms)
+  Rendered articles/_form.html.erb (57.7ms)
+  Rendered articles/_form.html.erb (59.5ms)
+  Rendered articles/_form.html.erb (61.2ms)
+  Rendered articles/_form.html.erb (63.0ms)
+  Rendered articles/_form.html.erb (64.6ms)
+  Rendered articles/_form.html.erb (66.1ms)
+  Rendered articles/_form.html.erb (67.8ms)
+  Rendered articles/_form.html.erb (69.4ms)
+  Rendered articles/_form.html.erb (71.2ms)
+  Rendered articles/_form.html.erb (72.7ms)
+  Rendered articles/_form.html.erb (74.4ms)
+  Rendered articles/_form.html.erb (76.3ms)
+  Rendered articles/_form.html.erb (78.1ms)
+  Rendered articles/_form.html.erb (79.8ms)
+  Rendered articles/_form.html.erb (81.4ms)
+  Rendered articles/_form.html.erb (83.1ms)
+  Rendered articles/_form.html.erb (84.9ms)
+  Rendered articles/_form.html.erb (86.8ms)
+  Rendered articles/_form.html.erb (89.0ms)
+  Rendered articles/_form.html.erb (91.3ms)
+  Rendered articles/_form.html.erb (93.9ms)
+  Rendered articles/_form.html.erb (96.3ms)
+  Rendered articles/_form.html.erb (98.5ms)
+  Rendered articles/_form.html.erb (100.8ms)
+  Rendered articles/_form.html.erb (103.0ms)
+  Rendered articles/_form.html.erb (104.6ms)
+  Rendered articles/_form.html.erb (106.3ms)
+  Rendered articles/_form.html.erb (108.0ms)
+  Rendered articles/_form.html.erb (109.7ms)
+  Rendered articles/_form.html.erb (111.7ms)
+  Rendered articles/_form.html.erb (113.4ms)
+  Rendered articles/_form.html.erb (115.0ms)
+  Rendered articles/_form.html.erb (116.8ms)
+  Rendered articles/_form.html.erb (118.7ms)
+  Rendered articles/_form.html.erb (120.9ms)
+  Rendered articles/_form.html.erb (123.0ms)
+  Rendered articles/_form.html.erb (125.4ms)
+  Rendered articles/_form.html.erb (127.8ms)
+  Rendered articles/_form.html.erb (130.4ms)
+  Rendered articles/_form.html.erb (132.7ms)
+  Rendered articles/_form.html.erb (134.9ms)
+  Rendered articles/_form.html.erb (137.1ms)
+  Rendered articles/_form.html.erb (139.0ms)
+  Rendered articles/_form.html.erb (140.6ms)
+  Rendered articles/_form.html.erb (142.3ms)
+  Rendered articles/_form.html.erb (144.0ms)
+  Rendered articles/_form.html.erb (146.1ms)
+  Rendered articles/_form.html.erb (147.9ms)
+  Rendered articles/_form.html.erb (149.5ms)
+  Rendered articles/_form.html.erb (151.1ms)
+  Rendered articles/_form.html.erb (152.7ms)
+  Rendered articles/_form.html.erb (154.4ms)
+  Rendered articles/_form.html.erb (156.1ms)
+  Rendered articles/_form.html.erb (157.9ms)
+  Rendered articles/_form.html.erb (159.7ms)
+  Rendered articles/_form.html.erb (161.3ms)
+  Rendered articles/_form.html.erb (163.2ms)
+  Rendered articles/_form.html.erb (165.0ms)
+  Rendered articles/_form.html.erb (166.7ms)
+  Rendered articles/_form.html.erb (168.5ms)
+  Rendered articles/_form.html.erb (170.3ms)
+  Rendered articles/_form.html.erb (172.5ms)
+  Rendered articles/_form.html.erb (174.8ms)
+  Rendered articles/_form.html.erb (176.9ms)
+  Rendered articles/_form.html.erb (179.4ms)
+  Rendered articles/_form.html.erb (181.0ms)
+  Rendered articles/_form.html.erb (182.8ms)
+  Rendered articles/_form.html.erb (184.3ms)
+  Rendered articles/_form.html.erb (186.0ms)
+  Rendered articles/_form.html.erb (187.7ms)
+  Rendered articles/_form.html.erb (189.4ms)
+  Rendered articles/_form.html.erb (191.0ms)
+  Rendered articles/_form.html.erb (192.6ms)
+  Rendered articles/_form.html.erb (194.2ms)
+  Rendered articles/_form.html.erb (195.9ms)
+  Rendered articles/_form.html.erb (197.6ms)
+  Rendered articles/_form.html.erb (199.4ms)
+  Rendered articles/_form.html.erb (201.1ms)
+  Rendered articles/_form.html.erb (202.7ms)
+  Rendered articles/_form.html.erb (204.4ms)
+  Rendered articles/_form.html.erb (206.0ms)
+  Rendered articles/_form.html.erb (207.6ms)
+  Rendered articles/_form.html.erb (209.3ms)
+  Rendered articles/_form.html.erb (210.9ms)
+  Rendered articles/_form.html.erb (212.7ms)
+  Rendered articles/_form.html.erb (214.4ms)
+  Rendered articles/_form.html.erb (216.2ms)
+  Rendered articles/_form.html.erb (218.1ms)
+  Rendered articles/_form.html.erb (220.2ms)
+  Rendered articles/_form.html.erb (222.4ms)
+  Rendered articles/_form.html.erb (224.5ms)
+  Rendered articles/_form.html.erb (226.8ms)
+  Rendered articles/_form.html.erb (229.2ms)
+  Rendered articles/_form.html.erb (230.9ms)
+  Rendered articles/_form.html.erb (232.5ms)
+  Rendered articles/_form.html.erb (234.2ms)
+  Rendered articles/_form.html.erb (235.8ms)
+  Rendered articles/_form.html.erb (237.4ms)
+  Rendered articles/_form.html.erb (239.0ms)
+  Rendered articles/_form.html.erb (240.6ms)
+  Rendered articles/_form.html.erb (242.2ms)
+  Rendered articles/_form.html.erb (243.9ms)
+  Rendered articles/_form.html.erb (245.7ms)
+  Rendered articles/_form.html.erb (247.9ms)
+  Rendered articles/_form.html.erb (249.6ms)
+  Rendered articles/_form.html.erb (251.4ms)
+  Rendered articles/_form.html.erb (253.8ms)
+  Rendered articles/_form.html.erb (255.4ms)
+  Rendered articles/_form.html.erb (257.0ms)
+  Rendered articles/_form.html.erb (258.5ms)
+  Rendered articles/_form.html.erb (260.1ms)
+  Rendered articles/_form.html.erb (261.7ms)
+  Rendered articles/_form.html.erb (263.5ms)
+  Rendered articles/_form.html.erb (265.1ms)
+  Rendered articles/_form.html.erb (266.8ms)
+  Rendered articles/_form.html.erb (268.5ms)
+  Rendered articles/_form.html.erb (270.3ms)
+  Rendered articles/_form.html.erb (272.0ms)
+  Rendered articles/_form.html.erb (273.8ms)
+  Rendered articles/_form.html.erb (275.6ms)
+  Rendered articles/_form.html.erb (277.8ms)
+  Rendered articles/_form.html.erb (280.1ms)
+  Rendered articles/_form.html.erb (282.3ms)
+  Rendered articles/_form.html.erb (284.0ms)
+  Rendered articles/_form.html.erb (285.9ms)
+  Rendered articles/_form.html.erb (287.9ms)
+  Rendered articles/_form.html.erb (289.7ms)
+  Rendered articles/_form.html.erb (291.5ms)
+  Rendered articles/_form.html.erb (293.5ms)
+  Rendered articles/_form.html.erb (295.8ms)
+  Rendered articles/_form.html.erb (298.0ms)
+  Rendered articles/_form.html.erb (300.3ms)
+  Rendered articles/_form.html.erb (302.0ms)
+  Rendered articles/_form.html.erb (303.8ms)
+  Rendered articles/_form.html.erb (305.6ms)
+  Rendered articles/_form.html.erb (307.3ms)
+  Rendered articles/_form.html.erb (308.9ms)
+  Rendered articles/_form.html.erb (310.4ms)
+  Rendered articles/_form.html.erb (312.2ms)
+  Rendered articles/_form.html.erb (313.8ms)
+  Rendered articles/_form.html.erb (315.4ms)
+  Rendered articles/_form.html.erb (317.2ms)
+  Rendered articles/_form.html.erb (319.0ms)
+  Rendered articles/_form.html.erb (321.3ms)
+  Rendered articles/_form.html.erb (322.8ms)
+  Rendered articles/_form.html.erb (324.5ms)
+  Rendered articles/_form.html.erb (326.2ms)
+  Rendered articles/_form.html.erb (327.9ms)
+  Rendered articles/_form.html.erb (329.6ms)
+  Rendered articles/_form.html.erb (331.3ms)
+  Rendered articles/_form.html.erb (332.9ms)
+  Rendered articles/_form.html.erb (334.7ms)
+  Rendered articles/_form.html.erb (336.4ms)
+  Rendered articles/_form.html.erb (338.6ms)
+  Rendered articles/_form.html.erb (340.3ms)
+  Rendered articles/_form.html.erb (341.9ms)
+  Rendered articles/_form.html.erb (343.5ms)
+  Rendered articles/_form.html.erb (345.1ms)
+  Rendered articles/_form.html.erb (346.7ms)
+  Rendered articles/_form.html.erb (348.4ms)
+  Rendered articles/_form.html.erb (350.1ms)
+  Rendered articles/_form.html.erb (352.0ms)
+  Rendered articles/_form.html.erb (354.0ms)
+  Rendered articles/_form.html.erb (355.9ms)
+  Rendered articles/_form.html.erb (357.8ms)
+  Rendered articles/_form.html.erb (360.1ms)
+  Rendered articles/_form.html.erb (362.3ms)
+  Rendered articles/_form.html.erb (364.6ms)
+  Rendered articles/_form.html.erb (366.1ms)
+  Rendered articles/_form.html.erb (367.9ms)
+  Rendered articles/_form.html.erb (369.5ms)
+  Rendered articles/_form.html.erb (371.3ms)
+  Rendered articles/_form.html.erb (373.0ms)
+  Rendered articles/_form.html.erb (374.5ms)
+  Rendered articles/_form.html.erb (376.2ms)
+  Rendered articles/_form.html.erb (377.9ms)
+  Rendered articles/_form.html.erb (379.7ms)
+  Rendered articles/_form.html.erb (381.4ms)
+  Rendered articles/_form.html.erb (383.1ms)
+  Rendered articles/_form.html.erb (384.8ms)
+  Rendered articles/_form.html.erb (386.5ms)
+  Rendered articles/_form.html.erb (388.2ms)
+  Rendered articles/_form.html.erb (390.0ms)
+  Rendered articles/_form.html.erb (391.8ms)
+  Rendered articles/_form.html.erb (393.4ms)
+  Rendered articles/_form.html.erb (395.0ms)
+  Rendered articles/_form.html.erb (396.7ms)
+  Rendered articles/_form.html.erb (398.3ms)
+  Rendered articles/_form.html.erb (400.1ms)
+  Rendered articles/_form.html.erb (401.7ms)
+  Rendered articles/_form.html.erb (403.4ms)
+  Rendered articles/_form.html.erb (405.2ms)
+  Rendered articles/_form.html.erb (407.0ms)
+  Rendered articles/_form.html.erb (408.9ms)
+  Rendered articles/_form.html.erb (410.7ms)
+  Rendered articles/_form.html.erb (412.7ms)
+  Rendered articles/_form.html.erb (414.8ms)
+  Rendered articles/_form.html.erb (417.1ms)
+  Rendered articles/_form.html.erb (419.3ms)
+  Rendered articles/_form.html.erb (421.2ms)
+  Rendered articles/_form.html.erb (422.9ms)
+  Rendered articles/_form.html.erb (424.7ms)
+  Rendered articles/_form.html.erb (426.4ms)
+  Rendered articles/_form.html.erb (428.0ms)
+  Rendered articles/_form.html.erb (429.7ms)
+  Rendered articles/_form.html.erb (431.3ms)
+  Rendered articles/_form.html.erb (433.0ms)
+  Rendered articles/_form.html.erb (434.9ms)
+  Rendered articles/_form.html.erb (436.7ms)
+  Rendered articles/_form.html.erb (438.4ms)
+  Rendered articles/_form.html.erb (440.1ms)
+  Rendered articles/_form.html.erb (441.9ms)
+  Rendered articles/_form.html.erb (443.9ms)
+  Rendered articles/_form.html.erb (445.5ms)
+  Rendered articles/_form.html.erb (447.2ms)
+  Rendered articles/_form.html.erb (448.8ms)
+  Rendered articles/_form.html.erb (450.5ms)
+  Rendered articles/_form.html.erb (452.6ms)
+  Rendered articles/_form.html.erb (454.4ms)
+  Rendered articles/_form.html.erb (456.2ms)
+  Rendered articles/_form.html.erb (458.5ms)
+  Rendered articles/_form.html.erb (460.7ms)
+  Rendered articles/_form.html.erb (462.6ms)
+  Rendered articles/_form.html.erb (464.1ms)
+  Rendered articles/_form.html.erb (465.8ms)
+  Rendered articles/_form.html.erb (467.4ms)
+  Rendered articles/_form.html.erb (469.3ms)
+  Rendered articles/_form.html.erb (471.0ms)
+  Rendered articles/_form.html.erb (472.7ms)
+  Rendered articles/_form.html.erb (474.4ms)
+  Rendered articles/_form.html.erb (476.0ms)
+  Rendered articles/_form.html.erb (477.8ms)
+  Rendered articles/_form.html.erb (479.4ms)
+  Rendered articles/_form.html.erb (481.0ms)
+  Rendered articles/_form.html.erb (482.6ms)
+  Rendered articles/_form.html.erb (484.3ms)
+  Rendered articles/_form.html.erb (486.0ms)
+  Rendered articles/_form.html.erb (487.8ms)
+  Rendered articles/_form.html.erb (489.4ms)
+  Rendered articles/_form.html.erb (491.1ms)
+  Rendered articles/_form.html.erb (492.9ms)
+  Rendered articles/_form.html.erb (494.9ms)
+  Rendered articles/_form.html.erb (496.5ms)
+  Rendered articles/_form.html.erb (498.1ms)
+  Rendered articles/_form.html.erb (499.7ms)
+  Rendered articles/_form.html.erb (501.4ms)
+  Rendered articles/_form.html.erb (503.1ms)
+  Rendered articles/_form.html.erb (504.7ms)
+  Rendered articles/_form.html.erb (506.4ms)
+  Rendered articles/_form.html.erb (508.2ms)
+  Rendered articles/_form.html.erb (510.1ms)
+  Rendered articles/_form.html.erb (512.2ms)
+  Rendered articles/_form.html.erb (514.3ms)
+  Rendered articles/_form.html.erb (516.6ms)
+  Rendered articles/_form.html.erb (518.8ms)
+  Rendered articles/_form.html.erb (521.2ms)
+  Rendered articles/_form.html.erb (523.4ms)
+  Rendered articles/_form.html.erb (525.7ms)
+  Rendered articles/_form.html.erb (528.1ms)
+  Rendered articles/_form.html.erb (529.9ms)
+  Rendered articles/_form.html.erb (531.5ms)
+  Rendered articles/_form.html.erb (533.1ms)
+  Rendered articles/_form.html.erb (534.7ms)
+  Rendered articles/_form.html.erb (536.4ms)
+  Rendered articles/_form.html.erb (538.1ms)
+  Rendered articles/_form.html.erb (539.9ms)
+  Rendered articles/_form.html.erb (541.5ms)
+  Rendered articles/_form.html.erb (543.2ms)
+  Rendered articles/_form.html.erb (544.9ms)
+  Rendered articles/_form.html.erb (546.8ms)
+  Rendered articles/_form.html.erb (548.6ms)
+  Rendered articles/_form.html.erb (550.4ms)
+  Rendered articles/_form.html.erb (552.5ms)
+  Rendered articles/_form.html.erb (554.7ms)
+  Rendered articles/_form.html.erb (556.9ms)
+  Rendered articles/_form.html.erb (559.1ms)
+  Rendered articles/_form.html.erb (561.3ms)
+  Rendered articles/_form.html.erb (562.9ms)
+  Rendered articles/_form.html.erb (564.7ms)
+  Rendered articles/_form.html.erb (566.3ms)
+  Rendered articles/_form.html.erb (567.9ms)
+  Rendered articles/_form.html.erb (569.6ms)
+  Rendered articles/_form.html.erb (571.1ms)
+  Rendered articles/_form.html.erb (572.7ms)
+  Rendered articles/_form.html.erb (574.3ms)
+  Rendered articles/_form.html.erb (576.0ms)
+  Rendered articles/_form.html.erb (577.7ms)
+  Rendered articles/_form.html.erb (579.3ms)
+  Rendered articles/_form.html.erb (581.1ms)
+  Rendered articles/_form.html.erb (582.8ms)
+  Rendered articles/_form.html.erb (584.5ms)
+  Rendered articles/_form.html.erb (586.2ms)
+  Rendered articles/_form.html.erb (587.8ms)
+  Rendered articles/_form.html.erb (589.5ms)
+  Rendered articles/_form.html.erb (591.1ms)
+  Rendered articles/_form.html.erb (592.8ms)
+  Rendered articles/_form.html.erb (594.4ms)
+  Rendered articles/_form.html.erb (596.3ms)
+  Rendered articles/_form.html.erb (598.0ms)
+  Rendered articles/_form.html.erb (599.7ms)
+  Rendered articles/_form.html.erb (601.3ms)
+  Rendered articles/_form.html.erb (603.0ms)
+  Rendered articles/_form.html.erb (604.8ms)
+  Rendered articles/_form.html.erb (606.5ms)
+  Rendered articles/_form.html.erb (608.1ms)
+  Rendered articles/_form.html.erb (609.8ms)
+  Rendered articles/_form.html.erb (612.0ms)
+  Rendered articles/_form.html.erb (613.7ms)
+  Rendered articles/_form.html.erb (615.5ms)
+  Rendered articles/_form.html.erb (617.7ms)
+  Rendered articles/_form.html.erb (619.8ms)
+  Rendered articles/_form.html.erb (621.3ms)
+  Rendered articles/_form.html.erb (622.9ms)
+  Rendered articles/_form.html.erb (624.5ms)
+  Rendered articles/_form.html.erb (626.2ms)
+  Rendered articles/_form.html.erb (627.9ms)
+  Rendered articles/_form.html.erb (629.6ms)
+  Rendered articles/_form.html.erb (631.3ms)
+  Rendered articles/_form.html.erb (633.1ms)
+  Rendered articles/_form.html.erb (634.7ms)
+  Rendered articles/_form.html.erb (636.5ms)
+  Rendered articles/_form.html.erb (638.2ms)
+  Rendered articles/_form.html.erb (639.9ms)
+  Rendered articles/_form.html.erb (641.6ms)
+  Rendered articles/_form.html.erb (643.3ms)
+  Rendered articles/_form.html.erb (645.0ms)
+  Rendered articles/_form.html.erb (646.7ms)
+  Rendered articles/_form.html.erb (648.5ms)
+  Rendered articles/_form.html.erb (650.2ms)
+  Rendered articles/_form.html.erb (651.9ms)
+  Rendered articles/_form.html.erb (653.7ms)
+  Rendered articles/_form.html.erb (655.4ms)
+  Rendered articles/_form.html.erb (657.2ms)
+  Rendered articles/_form.html.erb (658.8ms)
+  Rendered articles/_form.html.erb (660.5ms)
+  Rendered articles/_form.html.erb (662.2ms)
+  Rendered articles/_form.html.erb (663.8ms)
+  Rendered articles/_form.html.erb (665.5ms)
+  Rendered articles/_form.html.erb (667.2ms)
+  Rendered articles/_form.html.erb (669.3ms)
+  Rendered articles/_form.html.erb (670.9ms)
+  Rendered articles/_form.html.erb (672.6ms)
+  Rendered articles/_form.html.erb (674.3ms)
+  Rendered articles/_form.html.erb (676.0ms)
+  Rendered articles/_form.html.erb (677.8ms)
+  Rendered articles/_form.html.erb (679.4ms)
+  Rendered articles/_form.html.erb (681.1ms)
+  Rendered articles/_form.html.erb (682.7ms)
+  Rendered articles/_form.html.erb (684.5ms)
+  Rendered articles/_form.html.erb (686.5ms)
+  Rendered articles/_form.html.erb (688.1ms)
+  Rendered articles/_form.html.erb (689.7ms)
+  Rendered articles/_form.html.erb (691.4ms)
+  Rendered articles/_form.html.erb (693.1ms)
+  Rendered articles/_form.html.erb (695.0ms)
+  Rendered articles/_form.html.erb (696.6ms)
+  Rendered articles/_form.html.erb (698.3ms)
+  Rendered articles/_form.html.erb (700.0ms)
+  Rendered articles/_form.html.erb (701.7ms)
+  Rendered articles/_form.html.erb (703.5ms)
+  Rendered articles/_form.html.erb (705.3ms)
+  Rendered articles/_form.html.erb (706.8ms)
+  Rendered articles/_form.html.erb (708.5ms)
+  Rendered articles/_form.html.erb (710.2ms)
+  Rendered articles/_form.html.erb (712.1ms)
+  Rendered articles/_form.html.erb (713.7ms)
+  Rendered articles/_form.html.erb (715.3ms)
+  Rendered articles/_form.html.erb (716.8ms)
+  Rendered articles/_form.html.erb (718.5ms)
+  Rendered articles/_form.html.erb (720.3ms)
+  Rendered articles/_form.html.erb (722.2ms)
+  Rendered articles/_form.html.erb (724.0ms)
+  Rendered articles/_form.html.erb (725.9ms)
+  Rendered articles/_form.html.erb (728.0ms)
+  Rendered articles/_form.html.erb (729.9ms)
+  Rendered articles/_form.html.erb (732.1ms)
+  Rendered articles/_form.html.erb (734.5ms)
+  Rendered articles/_form.html.erb (736.7ms)
+  Rendered articles/_form.html.erb (738.4ms)
+  Rendered articles/_form.html.erb (740.0ms)
+  Rendered articles/_form.html.erb (741.5ms)
+  Rendered articles/_form.html.erb (743.2ms)
+  Rendered articles/_form.html.erb (744.8ms)
+  Rendered articles/_form.html.erb (746.6ms)
+  Rendered articles/_form.html.erb (748.4ms)
+  Rendered articles/_form.html.erb (750.0ms)
+  Rendered articles/_form.html.erb (751.9ms)
+  Rendered articles/_form.html.erb (753.9ms)
+  Rendered articles/_form.html.erb (755.8ms)
+  Rendered articles/_form.html.erb (757.4ms)
+  Rendered articles/_form.html.erb (758.9ms)
+  Rendered articles/_form.html.erb (760.5ms)
+  Rendered articles/_form.html.erb (762.2ms)
+  Rendered articles/_form.html.erb (764.0ms)
+  Rendered articles/_form.html.erb (765.8ms)
+  Rendered articles/_form.html.erb (767.4ms)
+  Rendered articles/_form.html.erb (769.0ms)
+  Rendered articles/_form.html.erb (770.7ms)
+  Rendered articles/_form.html.erb (772.6ms)
+  Rendered articles/_form.html.erb (774.3ms)
+  Rendered articles/_form.html.erb (775.9ms)
+  Rendered articles/_form.html.erb (777.5ms)
+  Rendered articles/_form.html.erb (779.2ms)
+  Rendered articles/_form.html.erb (781.6ms)
+  Rendered articles/_form.html.erb (783.8ms)
+  Rendered articles/_form.html.erb (785.5ms)
+  Rendered articles/_form.html.erb (787.3ms)
+  Rendered articles/_form.html.erb (789.0ms)
+  Rendered articles/_form.html.erb (790.6ms)
+  Rendered articles/_form.html.erb (792.2ms)
+  Rendered articles/_form.html.erb (793.9ms)
+  Rendered articles/_form.html.erb (795.6ms)
+  Rendered articles/_form.html.erb (797.4ms)
+  Rendered articles/_form.html.erb (799.1ms)
+  Rendered articles/_form.html.erb (800.8ms)
+  Rendered articles/_form.html.erb (802.5ms)
+  Rendered articles/_form.html.erb (804.2ms)
+  Rendered articles/_form.html.erb (806.1ms)
+  Rendered articles/_form.html.erb (807.9ms)
+  Rendered articles/_form.html.erb (809.5ms)
+  Rendered articles/_form.html.erb (811.2ms)
+  Rendered articles/_form.html.erb (813.0ms)
+  Rendered articles/_form.html.erb (814.5ms)
+  Rendered articles/_form.html.erb (816.1ms)
+  Rendered articles/_form.html.erb (817.8ms)
+  Rendered articles/_form.html.erb (819.5ms)
+  Rendered articles/_form.html.erb (821.4ms)
+  Rendered articles/_form.html.erb (823.1ms)
+  Rendered articles/_form.html.erb (825.1ms)
+  Rendered articles/_form.html.erb (827.6ms)
+  Rendered articles/_form.html.erb (829.7ms)
+  Rendered articles/_form.html.erb (831.3ms)
+  Rendered articles/_form.html.erb (832.9ms)
+  Rendered articles/_form.html.erb (834.7ms)
+  Rendered articles/_form.html.erb (836.6ms)
+  Rendered articles/_form.html.erb (838.8ms)
+  Rendered articles/_form.html.erb (841.1ms)
+  Rendered articles/_form.html.erb (843.5ms)
+  Rendered articles/_form.html.erb (845.9ms)
+  Rendered articles/_form.html.erb (848.3ms)
+  Rendered articles/_form.html.erb (850.5ms)
+  Rendered articles/_form.html.erb (852.8ms)
+  Rendered articles/_form.html.erb (855.0ms)
+  Rendered articles/_form.html.erb (856.7ms)
+  Rendered articles/_form.html.erb (858.4ms)
+  Rendered articles/_form.html.erb (860.1ms)
+  Rendered articles/_form.html.erb (861.8ms)
+  Rendered articles/_form.html.erb (863.5ms)
+  Rendered articles/_form.html.erb (865.1ms)
+  Rendered articles/_form.html.erb (866.6ms)
+  Rendered articles/_form.html.erb (868.2ms)
+  Rendered articles/_form.html.erb (869.9ms)
+  Rendered articles/_form.html.erb (871.8ms)
+  Rendered articles/_form.html.erb (874.1ms)
+  Rendered articles/_form.html.erb (876.0ms)
+  Rendered articles/_form.html.erb (877.7ms)
+  Rendered articles/_form.html.erb (879.3ms)
+  Rendered articles/_form.html.erb (880.9ms)
+  Rendered articles/_form.html.erb (882.5ms)
+  Rendered articles/_form.html.erb (884.2ms)
+  Rendered articles/_form.html.erb (885.7ms)
+  Rendered articles/_form.html.erb (887.3ms)
+  Rendered articles/_form.html.erb (889.0ms)
+  Rendered articles/_form.html.erb (890.7ms)
+  Rendered articles/_form.html.erb (892.4ms)
+  Rendered articles/_form.html.erb (894.0ms)
+  Rendered articles/_form.html.erb (895.7ms)
+  Rendered articles/_form.html.erb (897.4ms)
+  Rendered articles/_form.html.erb (898.9ms)
+  Rendered articles/_form.html.erb (900.5ms)
+  Rendered articles/_form.html.erb (902.1ms)
+  Rendered articles/_form.html.erb (903.8ms)
+  Rendered articles/_form.html.erb (905.5ms)
+  Rendered articles/_form.html.erb (907.1ms)
+  Rendered articles/_form.html.erb (908.8ms)
+  Rendered articles/_form.html.erb (910.4ms)
+  Rendered articles/_form.html.erb (912.2ms)
+  Rendered articles/_form.html.erb (913.8ms)
+  Rendered articles/_form.html.erb (915.4ms)
+  Rendered articles/_form.html.erb (917.0ms)
+  Rendered articles/_form.html.erb (918.6ms)
+  Rendered articles/_form.html.erb (920.5ms)
+  Rendered articles/_form.html.erb (922.4ms)
+  Rendered articles/_form.html.erb (924.6ms)
+  Rendered articles/_form.html.erb (926.7ms)
+  Rendered articles/_form.html.erb (928.9ms)
+  Rendered articles/_form.html.erb (931.2ms)
+  Rendered articles/_form.html.erb (933.4ms)
+  Rendered articles/_form.html.erb (935.8ms)
+  Rendered articles/_form.html.erb (937.9ms)
+  Rendered articles/_form.html.erb (939.5ms)
+  Rendered articles/_form.html.erb (941.2ms)
+  Rendered articles/_form.html.erb (942.8ms)
+  Rendered articles/_form.html.erb (944.5ms)
+  Rendered articles/_form.html.erb (946.2ms)
+  Rendered articles/_form.html.erb (947.8ms)
+  Rendered articles/_form.html.erb (949.3ms)
+  Rendered articles/_form.html.erb (950.9ms)
+  Rendered articles/_form.html.erb (952.5ms)
+  Rendered articles/_form.html.erb (954.1ms)
+  Rendered articles/_form.html.erb (955.8ms)
+  Rendered articles/_form.html.erb (957.4ms)
+  Rendered articles/_form.html.erb (959.0ms)
+  Rendered articles/_form.html.erb (960.8ms)
+  Rendered articles/_form.html.erb (962.6ms)
+  Rendered articles/_form.html.erb (964.3ms)
+  Rendered articles/_form.html.erb (965.8ms)
+  Rendered articles/_form.html.erb (967.6ms)
+  Rendered articles/_form.html.erb (969.5ms)
+  Rendered articles/_form.html.erb (971.6ms)
+  Rendered articles/_form.html.erb (973.8ms)
+  Rendered articles/_form.html.erb (983.3ms)
+  Rendered articles/_form.html.erb (984.8ms)
+  Rendered articles/_form.html.erb (986.4ms)
+  Rendered articles/_form.html.erb (987.9ms)
+  Rendered articles/_form.html.erb (989.4ms)
+  Rendered articles/_form.html.erb (991.0ms)
+  Rendered articles/_form.html.erb (992.6ms)
+  Rendered articles/_form.html.erb (994.2ms)
+  Rendered articles/_form.html.erb (995.9ms)
+  Rendered articles/_form.html.erb (997.6ms)
+  Rendered articles/_form.html.erb (999.2ms)
+  Rendered articles/_form.html.erb (1000.8ms)
+  Rendered articles/_form.html.erb (1002.3ms)
+  Rendered articles/_form.html.erb (1003.9ms)
+  Rendered articles/_form.html.erb (1005.4ms)
+  Rendered articles/_form.html.erb (1007.0ms)
+  Rendered articles/_form.html.erb (1008.6ms)
+  Rendered articles/_form.html.erb (1010.4ms)
+  Rendered articles/_form.html.erb (1012.1ms)
+  Rendered articles/_form.html.erb (1014.0ms)
+  Rendered articles/_form.html.erb (1015.8ms)
+  Rendered articles/_form.html.erb (1017.6ms)
+  Rendered articles/_form.html.erb (1019.4ms)
+  Rendered articles/_form.html.erb (1021.6ms)
+  Rendered articles/_form.html.erb (1023.8ms)
+  Rendered articles/_form.html.erb (1026.1ms)
+  Rendered articles/_form.html.erb (1028.5ms)
+  Rendered articles/_form.html.erb (1030.7ms)
+  Rendered articles/_form.html.erb (1032.4ms)
+  Rendered articles/_form.html.erb (1034.0ms)
+  Rendered articles/_form.html.erb (1035.6ms)
+  Rendered articles/_form.html.erb (1037.2ms)
+  Rendered articles/_form.html.erb (1038.8ms)
+  Rendered articles/_form.html.erb (1040.3ms)
+  Rendered articles/_form.html.erb (1041.8ms)
+  Rendered articles/_form.html.erb (1043.4ms)
+  Rendered articles/_form.html.erb (1045.0ms)
+  Rendered articles/_form.html.erb (1046.7ms)
+  Rendered articles/_form.html.erb (1048.4ms)
+  Rendered articles/_form.html.erb (1050.1ms)
+  Rendered articles/_form.html.erb (1051.7ms)
+  Rendered articles/_form.html.erb (1053.3ms)
+  Rendered articles/_form.html.erb (1054.8ms)
+  Rendered articles/_form.html.erb (1056.4ms)
+  Rendered articles/_form.html.erb (1058.0ms)
+  Rendered articles/_form.html.erb (1059.6ms)
+  Rendered articles/_form.html.erb (1061.2ms)
+  Rendered articles/_form.html.erb (1062.8ms)
+  Rendered articles/_form.html.erb (1064.5ms)
+  Rendered articles/_form.html.erb (1066.2ms)
+  Rendered articles/_form.html.erb (1067.9ms)
+  Rendered articles/_form.html.erb (1069.6ms)
+  Rendered articles/_form.html.erb (1071.2ms)
+  Rendered articles/_form.html.erb (1073.0ms)
+  Rendered articles/_form.html.erb (1074.9ms)
+  Rendered articles/_form.html.erb (1077.1ms)
+  Rendered articles/_form.html.erb (1079.3ms)
+  Rendered articles/_form.html.erb (1081.5ms)
+  Rendered articles/_form.html.erb (1083.8ms)
+  Rendered articles/_form.html.erb (1085.9ms)
+  Rendered articles/_form.html.erb (1087.6ms)
+  Rendered articles/_form.html.erb (1089.1ms)
+  Rendered articles/_form.html.erb (1090.7ms)
+  Rendered articles/_form.html.erb (1092.2ms)
+  Rendered articles/_form.html.erb (1093.8ms)
+  Rendered articles/_form.html.erb (1095.4ms)
+  Rendered articles/_form.html.erb (1097.0ms)
+  Rendered articles/_form.html.erb (1098.7ms)
+  Rendered articles/_form.html.erb (1100.4ms)
+  Rendered articles/_form.html.erb (1102.1ms)
+  Rendered articles/_form.html.erb (1103.8ms)
+  Rendered articles/_form.html.erb (1105.4ms)
+  Rendered articles/_form.html.erb (1106.9ms)
+  Rendered articles/_form.html.erb (1108.6ms)
+  Rendered articles/_form.html.erb (1110.2ms)
+  Rendered articles/_form.html.erb (1111.8ms)
+  Rendered articles/_form.html.erb (1113.4ms)
+  Rendered articles/_form.html.erb (1115.1ms)
+  Rendered articles/_form.html.erb (1116.7ms)
+  Rendered articles/_form.html.erb (1118.5ms)
+  Rendered articles/_form.html.erb (1120.4ms)
+  Rendered articles/_form.html.erb (1122.3ms)
+  Rendered articles/_form.html.erb (1124.0ms)
+  Rendered articles/_form.html.erb (1125.6ms)
+  Rendered articles/_form.html.erb (1127.1ms)
+  Rendered articles/_form.html.erb (1128.7ms)
+  Rendered articles/_form.html.erb (1130.3ms)
+  Rendered articles/_form.html.erb (1131.9ms)
+  Rendered articles/_form.html.erb (1133.7ms)
+  Rendered articles/_form.html.erb (1135.4ms)
+  Rendered articles/_form.html.erb (1137.1ms)
+  Rendered articles/_form.html.erb (1138.6ms)
+  Rendered articles/_form.html.erb (1140.2ms)
+  Rendered articles/_form.html.erb (1142.0ms)
+  Rendered articles/_form.html.erb (1143.8ms)
+  Rendered articles/_form.html.erb (1146.0ms)
+  Rendered articles/_form.html.erb (1148.2ms)
+  Rendered articles/_form.html.erb (1150.3ms)
+  Rendered articles/_form.html.erb (1152.0ms)
+  Rendered articles/_form.html.erb (1154.0ms)
+  Rendered articles/_form.html.erb (1156.3ms)
+  Rendered articles/_form.html.erb (1158.0ms)
+  Rendered articles/_form.html.erb (1159.5ms)
+  Rendered articles/_form.html.erb (1161.1ms)
+  Rendered articles/_form.html.erb (1163.1ms)
+  Rendered articles/new.html.erb within layouts/application (1183.9ms)
+Completed 500 Internal Server Error in 1189ms (ActiveRecord: 0.0ms)
+
+SystemStackError (stack level too deep):
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/_form.html.erb:3:in `_app_views_articles__form_html_erb___1861617417663944655_70173215253040'
+  app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__4349239655356274927_70173210329660'
+
+
+
+
+Started GET "/articles" for ::1 at 2016-02-21 16:12:02 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 250ms (Views: 238.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-21 16:12:03 -0800
+
+
+Started GET "/articles/new" for ::1 at 2016-02-21 16:12:05 -0800
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (38.7ms)
+  Rendered articles/new.html.erb within layouts/application (43.9ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for ::1 at 2016-02-21 16:12:14 -0800
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZWLxLeBQcfESOq1o8fw6734nVLzLCXMJAw3YDBFud+qLfR1hLFzG9wyji6BiuXBP0PHynvkDzOQPopYfVI5Vrw==", "article"=>{"title"=>"Welcome", "text"=>"First time here?"}, "commit"=>"Create Article"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "Welcome"], ["text", "First time here?"], ["created_at", "2016-02-22 00:12:14.195732"], ["updated_at", "2016-02-22 00:12:14.195732"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/3
+Completed 302 Found in 9ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/articles/3" for ::1 at 2016-02-21 16:12:14 -0800
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 29.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for ::1 at 2016-02-21 16:12:16 -0800
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/2/edit" for ::1 at 2016-02-21 16:12:38 -0800
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/_form.html.erb (1.6ms)
+  Rendered articles/edit.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/articles/2" for ::1 at 2016-02-21 16:12:46 -0800
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ed8nz+lFSgG9oRmTJHemwe6GJ7ELLg+VSiB8uQi9MDOXwMuDJUn9B6M4P1u3MuxhQFCBkzkksHhGjzKqTV0Sdg==", "article"=>{"title"=>"holy cow", "text"=>"wow no way it's real"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "articles" SET "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["text", "wow no way it's real"], ["updated_at", "2016-02-22 00:12:46.397216"], ["id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/2
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/articles/2" for ::1 at 2016-02-21 16:12:46 -0800
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for ::1 at 2016-02-21 16:12:48 -0800
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.1ms)
